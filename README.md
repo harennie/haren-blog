@@ -54,8 +54,10 @@ npx shirones init            # 只报告配置/脚手架漂移，不改文件
 npx shirones init --update   # 补齐缺失文件，保留你改过的内容
 ```
 
-## 部署前必改
+## 部署
 
-`shirones/config/siteConfig.ts` 里的 `site` 目前是占位地址 `https://example.com/`。上线前改成正式域名，`base` 在站点挂在域名根路径时保持 `/`。
+规范站点地址已写在 `shirones/config/siteConfig.ts`：`site` 为 `https://unowen.top/`，`base` 为 `/`。生产构建会按这个地址生成 canonical、sitemap 和 RSS。
+
+域名 **unowen.top** 的 DNS 与静态托管还需要你自己接上（例如把 `dist/` 发布到 Pages / 对象存储 / Nginx）。接好之前，本地继续用 `pnpm dev` 或 `pnpm preview`。
 
 把 `shirones/config/profileConfig.ts` 里的社交链接换成你自己的主页。不要提交评论服务 ID、统计 ID、API Key 或 B 站 SESSDATA。
