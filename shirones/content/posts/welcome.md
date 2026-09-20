@@ -4,6 +4,7 @@ published: 2026-09-20
 description: 哈人的博客上线了。这里会慢慢写下日常与想法。
 tags: [随笔]
 category: 日常
+series: notes
 draft: false
 lang: zh_CN
 ---
