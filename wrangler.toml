@@ -1,0 +1,6 @@
+# Cloudflare Pages — 静态站点（Shirone `pnpm build` → dist/）
+# 控制台连 Git 时同样使用：构建命令 `pnpm build`，输出目录 `dist`。
+# 不要把 API Token、Account ID 写进本文件。
+name = "unowen"
+compatibility_date = "2026-09-20"
+pages_build_output_dir = "./dist"

@@ -10,7 +10,7 @@ import { withUserConfig } from "@/utils/config-overlay.ts";
  * 类型见 src/types/config.ts。
  */
 export const siteConfig: SiteConfig = withUserConfig("site", {
-	// 正式站点地址。DNS 与托管尚未接上时，本地预览仍可用；上线前确认域名已解析到静态托管。
+	// 正式站点地址（Cloudflare Pages 自定义域名 unowen.top）。DNS/托管接上前本地预览仍可用。
 	site: "https://unowen.top/",
 	base: "/",
 	title: "哈人的博客",
