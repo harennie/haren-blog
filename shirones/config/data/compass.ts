@@ -91,6 +91,12 @@ export const compassData: CompassShelf[] = [
 		icon: "material-symbols:build-outline-rounded",
 		entries: [
 			{
+				label: "服务器探针",
+				href: "https://tz.unowen.top",
+				note: "VPS 状态面板",
+				icon: "material-symbols:monitor-heart-outline-rounded",
+			},
+			{
 				label: "Squoosh",
 				href: "https://squoosh.app",
 				note: "Image compression & conversion",
