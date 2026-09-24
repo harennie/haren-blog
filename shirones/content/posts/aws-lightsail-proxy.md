@@ -1,7 +1,7 @@
 ---
 title: 白嫖到一台 AWS 光帆，顺手把代理搭好了
 published: 2026-09-24
-description: b白嫖到一台俄亥俄的机子，让grok bot自己配置 Xray 和 Hysteria2（ai真是太好用了）。
+description: 白嫖到一台俄亥俄的机子，让grok bot自己配置 Xray 和 Hysteria2（ai真是太好用了）。
 tags: [VPS, 代理, AWS]
 category: 日常
 series: notes
