@@ -25,7 +25,7 @@ Reality 的伪装站选了 [www.case.edu](https://www.case.edu)。这个是扫�
 | --- | --- |
 | 机器 | us-east-2，2 vCPU / 945MB / 40GB，Debian 12，带 IPv6 |
 | Xray | 26.3.27，VLESS + Reality + XTLS Vision，ML-DSA-65，指纹 randomized |
-| 伪装站 | www.case.edu（同城 Fastly，TLS 1.3、H2、HSTS） |
+| 伪装站 | [www.case.edu](https://www.case.edu)（同城 Fastly，TLS 1.3、H2、HSTS） |
 | Hysteria2 | v2.12.3，UDP 443，端口跳跃 20000-50000，自签证书，指纹锁定 |
 | 系统 | BBR + fq，保守的网络参数，1GB swap |
 | 防火墙 | 只放行 22、443 和 Hysteria2 的 UDP 端口；SSH 有 fail2ban |
