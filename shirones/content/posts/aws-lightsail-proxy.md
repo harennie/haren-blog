@@ -9,7 +9,7 @@ draft: false
 lang: zh_CN
 ---
 
-今天白嫖到一台 AWS 光帆。落在俄亥俄，区域 us-east-2：2 核 CPU、945MB 内存、40GB 磁盘，系统是 Debian 12，带 IPv6。
+今天白嫖到一台 AWS 光帆。落在俄亥俄，区域 us-east-2：2 vCPU、1G 内存、40GB 磁盘、2TB 双向流量，系统是 Debian 12，带 IPv6。
 
 ## 代理
 
