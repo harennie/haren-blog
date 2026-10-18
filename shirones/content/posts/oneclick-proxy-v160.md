@@ -11,7 +11,7 @@ lang: zh_CN
 
 ## 10 月 18 日
 
-同日的[周日短记](/posts/sunday-note-20261018/)里还写着脚本停在 v1.3.0。仓库这边 [pull/20](https://github.com/harennie/oneclick-proxy/pull/20) 已经合并，版本是 1.6.0。仓库还是 [harennie/oneclick-proxy](https://github.com/harennie/oneclick-proxy)。
+仓库这边 [pull/20](https://github.com/harennie/oneclick-proxy/pull/20) 已经合并，版本是 1.6.0。仓库还是 [harennie/oneclick-proxy](https://github.com/harennie/oneclick-proxy)。
 
 16 号先把 `proxy.sh` 拆成 `src/` 里的模块，用 `build.sh` 按固定顺序拼回根目录的 `proxy.sh`。装机用的还是这一个文件。这版拼接时写上模块行号，出错会显示 `src/<文件>.sh:<行>`，`curl | bash` 也能对上。
 
@@ -27,4 +27,4 @@ Vision 和 XHTTP 可以共用一个 TCP 端口。`--xhttp-on-443`，或者 `prox
 
 `proxy update --rollback` 换回 `.bak` 并重启对应服务，systemd 和 OpenRC 都走这一套。目标是 `xray`、`hy2`、`singbox` 或 `all`。不写或写 `all` 时，没有备份的跳过并警告；点名某一个却没有 `.bak` 就失败退出。`--xray-ver`、`--hy2-ver`、`--singbox-ver` 在安装和 `proxy update` 里都能用，版本号得是 GitHub 上已有的发布标签。回滚和指定版本不能一起写。
 
-默认还是 [10 月 3 日那篇](/posts/oneclick-proxy-v130/)的三个：Vision、XHTTP、Hysteria2。Trojan、TUIC、AnyTLS 继续关着。主菜单第 16 项还是「协议开关」。
+默认三个协议还是 Vision、XHTTP、Hysteria2。Trojan、TUIC、AnyTLS 继续关着。主菜单第 16 项还是「协议开关」。
