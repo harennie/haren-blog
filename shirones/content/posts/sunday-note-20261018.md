@@ -1,7 +1,7 @@
 ---
 title: 周日晚上先记一笔
 published: 2026-10-18
-description: 一键代理脚本停在 v1.3.0。Cursor Pro 本月用量快重置，剩下的额度先用来写这篇短记。
+description: 晚上先按停在 v1.3.0 记了一笔，同日脚本已收到 v1.6.0。Cursor Pro 本月用量快重置，剩下的额度先用来写这篇短记。
 tags: [随笔]
 category: 日常
 series: notes
