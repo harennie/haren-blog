@@ -22,3 +22,5 @@ Shadowsocks 2022 还是只给落地机当出口。NaiveProxy 没加：要单独�
 主菜单两列，原来的项目都在，第 16 项是「协议开关」。字符 Logo 还是「哈人」，正下面一行小字是 `oneclick proxy`。主菜单、落地机菜单、协议开关那个框，标题都是这句。
 
 NAT 只有一条映射的时候，XHTTP 还要第二个 TCP 端口。放不下就跳过，整次安装照样成功，剩下 Reality 和 Hysteria2。以前的 `state.env` 里没有 XHTTP 这一项时，换 SNI 也不会突然把它打开。
+
+2026-10-18 补：上面「一条映射就跳过 XHTTP」已过时。v1.6.0 起会建议共用端口，`--auto` 直接共用。见 [一键脚本升到 v1.6.0](/posts/oneclick-proxy-v160/)。
